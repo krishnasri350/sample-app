@@ -1,6 +1,6 @@
 node {
     stage('ScorceCodeFromGit') {
-    git 'https://github.com/rcp-suresh/shipwrick.git'
+    git 'https://github.com/krishnasri350/sample-app.git'
 }
     stage('MavenBuild') {
     Maven_Home=tool name: 'maven-3.3.9', type: 'maven'

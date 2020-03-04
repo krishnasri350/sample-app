@@ -63,7 +63,7 @@
             <artifactId>jboss-as-maven-plugin</artifactId>
             <version>7.9.Final</version>
 	    <configuration>
-               <hostname>thehost</hostname>
+               <hostname>localhost</hostname>
                <port>9999</port>
                <username>jboss</username>
                <password>jboss</password>

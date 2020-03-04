@@ -62,14 +62,6 @@
             <groupId>org.jboss.as.plugins</groupId>
             <artifactId>jboss-as-maven-plugin</artifactId>
             <version>7.9.Final</version>
-            <executions>
-                <execution>
-                    <phase>install</phase>
-                    <goals>
-                        <goal>deploy</goal>
-                    </goals>
-                </execution>
-            </executions>
         </plugin>
 	    <plugin>
                 <groupId>com.spotify</groupId>
